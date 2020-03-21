@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#25C18F"
+    android:background="#61BD8C"
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/btnJogarId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="82dp"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="33dp"
         android:layout_marginRight="33dp"
         android:layout_marginBottom="66dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/btnJogarId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
